@@ -73,6 +73,8 @@ namespace Algolia.Search
             return ExecuteRequest("DELETE", "/1/indexes/" + Uri.EscapeDataString(indexName));
         }
 
+        // The user management of the API is not yet implemented.
+
 
 
 
